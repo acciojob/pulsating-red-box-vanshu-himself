@@ -1,15 +1,15 @@
 /*  your css code here. If applicable */
-#box{
+.box{
 	width:100px;
 	height:100px;
 	background:red;
-	animation-name:a;
+	animation-name:pulse;
 	animation-duration: 1.0s;
  animation-timing-function: ease-in;
            
             animation-timing-function: ease-out;
             animation-iteration-count: infinite;
-}@keyframes a{
+}@keyframes pulse{
 	0%{
 	transform:scale(0.9);
 	
